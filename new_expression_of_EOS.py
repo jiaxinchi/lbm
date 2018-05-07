@@ -1,8 +1,9 @@
+﻿#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 from settings import *
 import tools
 import scipy.io as sio
 import time
-
 
 @tools.metric(text='this model')
 def set_up():
